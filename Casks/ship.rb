@@ -4,21 +4,21 @@ cask "ship" do
 
   on_macos do
     on_arm do
-      sha256 "a73c120aaff9b34fc87fa71b632f9ba7d09b2df144f2e4b1b6d801cf9180c6ed"
+      sha256 "52460af6e434ad9c290c3ab66165964a6926b4bf528b55f82d6a9f387457a165"
       url "https://github.com/douwantech/banzi/releases/download/v#{version}/ship_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e493d285e17c3ad77bc995028a1219048e5c7ca2ba71b351d5759e2882778322"
+      sha256 "ceb181af6b3caceae1319275e104e961726ef380d02d7bbcd8322010f999d2fb"
       url "https://github.com/douwantech/banzi/releases/download/v#{version}/ship_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "1b4f8c16efb9d58d7726a32a76fb293ebe63f985da71336cd866c878a31004d8"
+      sha256 "1e08c5e1f30b87edc6a4499d5f11b4340b6a982ebc3b5c410b48c72be2f4e50a"
       url "https://github.com/douwantech/banzi/releases/download/v#{version}/ship_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "edeae3f4e213d1fc98503a4d2327a91179137ee2c19376d5d3c2230a2294d94f"
+      sha256 "634163bf8245ac9868b9eadee3c2e178b4a856cd0c4664e5176151309faee1ad"
       url "https://github.com/douwantech/banzi/releases/download/v#{version}/ship_#{version}_linux_amd64.tar.gz"
     end
   end
